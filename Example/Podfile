@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LeanHTTPManage_Example' do
+  pod 'LeanHTTPManage', :path => '../'
+
+  target 'LeanHTTPManage_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

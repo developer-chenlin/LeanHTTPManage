@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LeanHTTPManage (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LeanHTTPManage (from `../`)
+
+EXTERNAL SOURCES:
+  LeanHTTPManage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LeanHTTPManage: fbde70b81ba411949cea3f257b05ccaffef3f5a6
+
+PODFILE CHECKSUM: 3627fee12fbca935838e21bd549e351f923579f6
+
+COCOAPODS: 1.4.0

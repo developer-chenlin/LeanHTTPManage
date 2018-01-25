@@ -1,0 +1,6 @@
+framework module LeanHTTPManage {
+  umbrella header "LeanHTTPManage-umbrella.h"
+
+  export *
+  module * { export * }
+}

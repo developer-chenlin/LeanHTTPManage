@@ -1,0 +1,6 @@
+framework module Pods_LeanHTTPManage_Example {
+  umbrella header "Pods-LeanHTTPManage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
